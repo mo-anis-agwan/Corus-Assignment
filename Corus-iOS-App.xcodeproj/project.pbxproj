@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		68080C3325EF767A0035551C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68080C3225EF767A0035551C /* AppDelegate.swift */; };
 		68080C3525EF767A0035551C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68080C3425EF767A0035551C /* SceneDelegate.swift */; };
-		68080C3725EF767A0035551C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68080C3625EF767A0035551C /* ViewController.swift */; };
+		68080C3725EF767A0035551C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68080C3625EF767A0035551C /* HomeViewController.swift */; };
 		68080C3A25EF767A0035551C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68080C3825EF767A0035551C /* Main.storyboard */; };
 		68080C3C25EF767D0035551C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68080C3B25EF767D0035551C /* Assets.xcassets */; };
 		68080C3F25EF767D0035551C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68080C3D25EF767D0035551C /* LaunchScreen.storyboard */; };
+		68E6D6FB25F0F7F50052625E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68E6D6FA25F0F7F50052625E /* GoogleService-Info.plist */; };
+		68E6D76C25F123650052625E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D76B25F123650052625E /* LoginViewController.swift */; };
+		68E6D76F25F1239E0052625E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D76E25F1239E0052625E /* RegisterViewController.swift */; };
+		68E6D77225F123C80052625E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E6D77125F123C80052625E /* UserViewController.swift */; };
+		68ED3DD325F2251800FB9FE7 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 68ED3DD225F2251800FB9FE7 /* IQKeyboardManagerSwift */; };
+		9F0406BA500C090B6A498D57 /* Pods_Corus_iOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5471A602E15C5F1BCC317694 /* Pods_Corus_iOS_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A85D79555D7C9B05D7723BE /* Pods-Corus-iOS-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corus-iOS-App.debug.xcconfig"; path = "Target Support Files/Pods-Corus-iOS-App/Pods-Corus-iOS-App.debug.xcconfig"; sourceTree = "<group>"; };
+		5471A602E15C5F1BCC317694 /* Pods_Corus_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corus_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68080C2F25EF767A0035551C /* Corus-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corus-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68080C3225EF767A0035551C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68080C3425EF767A0035551C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68080C3625EF767A0035551C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68080C3625EF767A0035551C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		68080C3925EF767A0035551C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68080C3B25EF767D0035551C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68080C3E25EF767D0035551C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68080C4025EF767D0035551C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E6D6FA25F0F7F50052625E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68E6D76B25F123650052625E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		68E6D76E25F1239E0052625E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		68E6D77125F123C80052625E /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A8985823AD01789A89D40F48 /* Pods-Corus-iOS-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Corus-iOS-App.release.xcconfig"; path = "Target Support Files/Pods-Corus-iOS-App/Pods-Corus-iOS-App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0406BA500C090B6A498D57 /* Pods_Corus_iOS_App.framework in Frameworks */,
+				68ED3DD325F2251800FB9FE7 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D8F61972A54B9D2BC663515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A85D79555D7C9B05D7723BE /* Pods-Corus-iOS-App.debug.xcconfig */,
+				A8985823AD01789A89D40F48 /* Pods-Corus-iOS-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		68080C2625EF767A0035551C = {
 			isa = PBXGroup;
 			children = (
 				68080C3125EF767A0035551C /* Corus-iOS-App */,
 				68080C3025EF767A0035551C /* Products */,
+				3D8F61972A54B9D2BC663515 /* Pods */,
+				DCCF1F8C6C419AE576D327C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +84,33 @@
 			children = (
 				68080C3225EF767A0035551C /* AppDelegate.swift */,
 				68080C3425EF767A0035551C /* SceneDelegate.swift */,
-				68080C3625EF767A0035551C /* ViewController.swift */,
+				68E6D6EE25F0F0FC0052625E /* Controller */,
 				68080C3825EF767A0035551C /* Main.storyboard */,
 				68080C3B25EF767D0035551C /* Assets.xcassets */,
 				68080C3D25EF767D0035551C /* LaunchScreen.storyboard */,
 				68080C4025EF767D0035551C /* Info.plist */,
+				68E6D6FA25F0F7F50052625E /* GoogleService-Info.plist */,
 			);
 			path = "Corus-iOS-App";
+			sourceTree = "<group>";
+		};
+		68E6D6EE25F0F0FC0052625E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68080C3625EF767A0035551C /* HomeViewController.swift */,
+				68E6D76B25F123650052625E /* LoginViewController.swift */,
+				68E6D76E25F1239E0052625E /* RegisterViewController.swift */,
+				68E6D77125F123C80052625E /* UserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCCF1F8C6C419AE576D327C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5471A602E15C5F1BCC317694 /* Pods_Corus_iOS_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +120,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68080C4325EF767D0035551C /* Build configuration list for PBXNativeTarget "Corus-iOS-App" */;
 			buildPhases = (
+				F24C5D8D55A81404F5F8756A /* [CP] Check Pods Manifest.lock */,
 				68080C2B25EF767A0035551C /* Sources */,
 				68080C2C25EF767A0035551C /* Frameworks */,
 				68080C2D25EF767A0035551C /* Resources */,
+				6B26B1D2CE7009A912892D6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Corus-iOS-App";
+			packageProductDependencies = (
+				68ED3DD225F2251800FB9FE7 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Corus-iOS-App";
 			productReference = 68080C2F25EF767A0035551C /* Corus-iOS-App.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +161,9 @@
 				Base,
 			);
 			mainGroup = 68080C2625EF767A0035551C;
+			packageReferences = (
+				68ED3DD125F2251800FB9FE7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 68080C3025EF767A0035551C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68080C3F25EF767D0035551C /* LaunchScreen.storyboard in Resources */,
+				68E6D6FB25F0F7F50052625E /* GoogleService-Info.plist in Resources */,
 				68080C3C25EF767D0035551C /* Assets.xcassets in Resources */,
 				68080C3A25EF767A0035551C /* Main.storyboard in Resources */,
 			);
@@ -132,12 +187,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B26B1D2CE7009A912892D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Corus-iOS-App/Pods-Corus-iOS-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Corus-iOS-App/Pods-Corus-iOS-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Corus-iOS-App/Pods-Corus-iOS-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F24C5D8D55A81404F5F8756A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Corus-iOS-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68080C2B25EF767A0035551C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68080C3725EF767A0035551C /* ViewController.swift in Sources */,
+				68E6D76C25F123650052625E /* LoginViewController.swift in Sources */,
+				68E6D77225F123C80052625E /* UserViewController.swift in Sources */,
+				68E6D76F25F1239E0052625E /* RegisterViewController.swift in Sources */,
+				68080C3725EF767A0035551C /* HomeViewController.swift in Sources */,
 				68080C3325EF767A0035551C /* AppDelegate.swift in Sources */,
 				68080C3525EF767A0035551C /* SceneDelegate.swift in Sources */,
 			);
@@ -283,18 +383,24 @@
 		};
 		68080C4425EF767D0035551C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A85D79555D7C9B05D7723BE /* Pods-Corus-iOS-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = L23WY88RCA;
 				INFOPLIST_FILE = "Corus-iOS-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Anis-Agwan.Corus-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,18 +408,25 @@
 		};
 		68080C4525EF767D0035551C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8985823AD01789A89D40F48 /* Pods-Corus-iOS-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L23WY88RCA;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=*]" = L23WY88RCA;
 				INFOPLIST_FILE = "Corus-iOS-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Anis-Agwan.Corus-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,6 +454,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68ED3DD125F2251800FB9FE7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68ED3DD225F2251800FB9FE7 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ED3DD125F2251800FB9FE7 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68080C2725EF767A0035551C /* Project object */;
 }
